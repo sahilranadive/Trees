@@ -120,7 +120,12 @@ printf("1\n");
 }
 
 void inorder(tree t){
-
+if(t==NULL){
+        return;
+    }
+    inorder(t->left);
+    printf("%d\n",t->value);
+    inorder(t->right);
 }
 
 
