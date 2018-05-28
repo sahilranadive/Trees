@@ -1,4 +1,4 @@
 # Trees
 Initial code push
-code for add and find working.
-Still to push the traversal and delete operations
+all code working. use inorder traversal and main.c to check code.
+cheers!
